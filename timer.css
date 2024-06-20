@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E6E6E6;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+.timerCont {
+    min-height: 100vh;
+    width: 90%;
+    margin-top: 40px;
+    background-color: thistle;
+    overflow: hidden;
+    margin-left: 60px;
+}
+
+#display {
+    width: 100%;
+    font-family: monospace;
+    font-size: 70px;
+    text-decoration-color: whitesmoke;
+    text-align: center;
+    margin-top: 0px auto;
+}
+.swControls {
+    text-align: center;
+    padding-top: 120px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
